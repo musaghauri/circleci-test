@@ -1,5 +1,5 @@
 {
-  "name": "testingtesttest",
+  "name": "circleci-test",
   "version": "1.0.0",
   "description": "all about testing test testing test test",
   "main": "sketch.js",
@@ -10,7 +10,10 @@
     "testing",
     "test"
   ],
-  "author": "The Coding Train",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Muhammad Musa",
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.1.4"
