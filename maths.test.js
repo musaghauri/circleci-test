@@ -8,9 +8,6 @@ const { sum } = require('./maths');
  * Sum to be defined
  */
 
-test('Sum function exists', () => {
-  expect(sum).toBeDefined();
-});
 
 test('adds 1 + 2 to equal 3', sumTest);
 
